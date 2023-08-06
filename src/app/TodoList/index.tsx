@@ -21,7 +21,7 @@ export const TasksList = ({ title, items }: Props) => {
                         <input
                             type="checkbox"
                             checked={todo.isDone}
-                            onClick={() => dispatch(updateTaskStatus({ id: todo.id, isDone: !todo.isDone }))}
+                            onChange={() => dispatch(updateTaskStatus({ id: todo.id, isDone: !todo.isDone }))}
                             className="task-checkbox"
                         />
                         <div className="task-title">{todo.title}</div>
