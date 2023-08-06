@@ -1,0 +1,49 @@
+.container {
+    width: 800px;
+    margin: 10px auto;
+    padding: 40px;
+    background-color: lightgray;
+    border: 2px solid black;
+    font-size: 18px;
+}
+
+.header {}
+
+.header-top {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.delete-all-btn {
+    justify-self: right;
+}
+
+.text-field {
+    border-radius: 5px;
+    height: 30px;
+    border: 2px solid black;
+    font-size: 15px;
+}
+
+.add-task-button {
+    border-radius: 5px;
+    height: 35px;
+    width: 100px;
+    background-color: lightblue;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+
+.task-lists-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
