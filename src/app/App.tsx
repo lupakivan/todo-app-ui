@@ -17,6 +17,8 @@ export function App() {
   const [search, setSearch] = React.useState('');
 
   const handleTodoCreate = () => {
+      if(!title) return;
+
       dispatch(createTask(title));
       setTitle('');
   }
